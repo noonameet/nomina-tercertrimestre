@@ -13,6 +13,11 @@ class Nomina:
         cambio = "${:,}".format(punto)
         return cambio.replace(',', '.').replace(' ', ',')
 
+    def añadir(summ):
+
+        reset = summ + 1 
+        return reset
+        
     def calcular_nomina(self):
         if self.hrextra > 0:
             self.pagohrextra = 25000 * self.hrextra
