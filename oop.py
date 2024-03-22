@@ -17,6 +17,12 @@ class Nomina:
 
         reset = summ + 1 
         return reset
+    
+    def restar(a,b):
+        
+        operacion = a - b
+        
+        return operacion
         
     def calcular_nomina(self):
         if self.hrextra > 0:
